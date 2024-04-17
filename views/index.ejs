@@ -11,5 +11,7 @@
     <% messages.forEach(message => { %>
       <p><%= message.user %>: <%= message.text %> (<%= message.added %>)</p>
     <% }) %>
+
+    <a href="/new">Post new message</a>
   </body>
 </html>
